@@ -9,3 +9,9 @@ def batch_badge_creator(speaker_list)
 
   return message_array
 end
+
+def assign_rooms(speaker_list)
+  room_asn = speaker_list.collect {
+    |name| "Hello, #{name}! You'll be assigned to room #{speaker_list.index(name)}!"
+  }
+end
