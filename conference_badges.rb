@@ -27,3 +27,5 @@ def printer(speaker_list)
     count += 1
   end
 end
+
+printer(array)
