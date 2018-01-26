@@ -14,4 +14,6 @@ def assign_rooms(speaker_list)
   room_asn = speaker_list.collect {
     |name| "Hello, #{name}! You'll be assigned to room #{speaker_list.find_index(name)}!"
   }
+
+  return room_asn
 end
