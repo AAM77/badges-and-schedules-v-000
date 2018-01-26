@@ -18,6 +18,8 @@ def assign_rooms(speaker_list)
   return room_asn
 end
 
+array = ["Joe", "John", "Jane"]
+
 def printer(speaker_list)
   count = 0
   while count < (speaker_list.length)
