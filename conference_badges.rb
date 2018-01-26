@@ -22,7 +22,6 @@ def printer(speaker_list)
   count = 0
   while count < (speaker_list.length)
     puts batch_badge_creator(speaker_list[count])
-    puts assign_rooms(speaker_list[count])
     count += 1
   end
 end
