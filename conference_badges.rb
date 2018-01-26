@@ -21,7 +21,7 @@ end
 array = ["Joe", "John", "Jane"]
 
 def printer(speaker_list)
-  message_array = badge_batch_creator(speaker_list)
+  message_array = batch_badge_creator(speaker_list)
   room_asn = assign_rooms(speaker_list)
 
   count = 0
