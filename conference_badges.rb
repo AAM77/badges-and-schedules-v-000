@@ -3,7 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(luminary_array)
-  return luminary_array.collect {
+  message_array = luminary_array.collect {
     |name| "Hello, my name is #{name}."
   }
+
+  return message_array
 end
